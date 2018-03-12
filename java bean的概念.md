@@ -1,8 +1,8 @@
- ##Java Bean（POJO）实现如下规则的Java对象
- ####1 必须有包（package）
- ####2 必须有无参数构造器
- ####3 实现序列化接口
- ####4 有getXXX setXXX方法定义的Bean属性XXX
+ ## Java Bean（POJO）实现如下规则的Java对象
+ #### 1 必须有包（package）
+ #### 2 必须有无参数构造器
+ #### 3 实现序列化接口
+ #### 4 有getXXX setXXX方法定义的Bean属性XXX
   String getName()
    void setName(String n)
 
@@ -10,5 +10,5 @@
 
    比如：EL表达式可以访问Bean属性！
 
- ####5 toString 
+ #### 5 toString 
   equals hashCode 有ID 基本都重写
